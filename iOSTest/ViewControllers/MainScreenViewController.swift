@@ -45,7 +45,6 @@ class MainScreenViewController: UITableViewController {
         self.tableView.reloadData()
       } else {
         //alert an error
-        self.view.makeToast("Encountered an error please try again.", backgroundColor: nil)
       }
       completionHandler?(flag)
     }
