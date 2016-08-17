@@ -51,6 +51,7 @@
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tyg-J6-5bB">
                                             <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                            <color key="backgroundColor" white="1" alpha="0.50859374999999996" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="110" id="Qhl-l1-83e"/>
                                             </constraints>

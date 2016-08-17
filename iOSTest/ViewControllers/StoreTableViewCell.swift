@@ -33,7 +33,8 @@ class StoreTableViewCell: UITableViewCell {
   }
   
   private func updateUI() {
-    if let imageUrlStr = storeData?.imageUrl, imageURL = NSURL(string: imageUrlStr) {
+    let imageURLStr = storeData?.imageUrl ?? GlobalConstants.defaultImageUrl
+    if let imageURL = NSURL(string: imageURLStr) {
       storeImageView.kf_setImageWithURL(imageURL)
     }
     storeNameLabel.text = storeData?.name
